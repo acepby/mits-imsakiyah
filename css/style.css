@@ -1,0 +1,65 @@
+.imsakiyah {
+font-size: 14px;
+}
+/*
+.imsakiyah select{
+  width:150px;
+}
+*/
+.imsakiyah option{
+  font-size: 11px;
+  height: 25px;
+  line-height: 1;
+}
+
+.imsakiyah #kota{
+  font-size: 11px;
+  width: 140px;
+  height: 25px;
+  line-height: 1;
+}
+
+.imsakiyah #table-title, #pilih-kota {
+    width: 60%;
+    border:none;
+}
+
+.imsakiyah table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    display:table;
+    width: 100%;
+}
+
+.imsakiyah table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.imsakiyah .today-row {
+    background-color: #8DACF4;
+    color: white;
+}
+
+.imsakiyah .head-row {
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+    font-variant: all-small-caps;
+    font-weight: bold;
+}
+
+.imsakiyah .caption{
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 1.5;
+}
+@media only screen and (min-width :360px) and (max-device-width :768px){
+  .imsakiyah {
+    font-size: 12px;
+    line-height: 1;
+  }
+}
