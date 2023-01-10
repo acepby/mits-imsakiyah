@@ -590,7 +590,7 @@ $(document).ready(function(){
 		var lng = data[3];//'110.36663960';//$('longitude').value;
 		var timeZone = data[4];//'+7'; //$('timezone').value;
 		var dst = 'auto'; //$('dst').value;
-		var method = 'Makkah'; //$('method').value;
+		var method = 'Karachi'; //$('method').value;
 		var bulan =['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
 		prayTimes.setMethod(method);
 		currentDate.setMonth(currentDate.getMonth()+ 1* offset);
